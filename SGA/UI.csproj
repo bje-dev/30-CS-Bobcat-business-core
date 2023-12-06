@@ -81,9 +81,9 @@
       <Project>{7ef19353-7fa0-4652-931c-cb3e81e1fa1d}</Project>
       <Name>BLL</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Dominio\Dominio.csproj">
+    <ProjectReference Include="..\Dominio\Domain.csproj">
       <Project>{a7554839-0aff-4f73-a4ce-bf4bf80b9d27}</Project>
-      <Name>Dominio</Name>
+      <Name>Domain</Name>
     </ProjectReference>
     <ProjectReference Include="..\SL\SL.csproj">
       <Project>{8b28f87d-aadf-4d49-bcd1-fba0b0fa36da}</Project>
