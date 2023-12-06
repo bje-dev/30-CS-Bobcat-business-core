@@ -1,0 +1,6 @@
+C:\Users\b-j-e\source\repos\30-CS-Bobcat-business-core\Dominio\bin\Debug\Dominio.dll
+C:\Users\b-j-e\source\repos\30-CS-Bobcat-business-core\Dominio\bin\Debug\Dominio.pdb
+C:\Users\b-j-e\source\repos\30-CS-Bobcat-business-core\Dominio\obj\Debug\Domain.csproj.AssemblyReference.cache
+C:\Users\b-j-e\source\repos\30-CS-Bobcat-business-core\Dominio\obj\Debug\Domain.csproj.CoreCompileInputs.cache
+C:\Users\b-j-e\source\repos\30-CS-Bobcat-business-core\Dominio\obj\Debug\Dominio.dll
+C:\Users\b-j-e\source\repos\30-CS-Bobcat-business-core\Dominio\obj\Debug\Dominio.pdb

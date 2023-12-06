@@ -1,0 +1,11 @@
+C:\Users\b-j-e\source\repos\30-CS-Bobcat-business-core\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+C:\Users\b-j-e\source\repos\30-CS-Bobcat-business-core\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\b-j-e\source\repos\30-CS-Bobcat-business-core\DAL\bin\Debug\DAL.dll
+C:\Users\b-j-e\source\repos\30-CS-Bobcat-business-core\DAL\bin\Debug\DAL.pdb
+C:\Users\b-j-e\source\repos\30-CS-Bobcat-business-core\DAL\bin\Debug\Dominio.dll
+C:\Users\b-j-e\source\repos\30-CS-Bobcat-business-core\DAL\bin\Debug\SL.dll
+C:\Users\b-j-e\source\repos\30-CS-Bobcat-business-core\DAL\bin\Debug\Dominio.pdb
+C:\Users\b-j-e\source\repos\30-CS-Bobcat-business-core\DAL\bin\Debug\SL.pdb
+C:\Users\b-j-e\source\repos\30-CS-Bobcat-business-core\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\b-j-e\source\repos\30-CS-Bobcat-business-core\DAL\obj\Debug\DAL.dll
+C:\Users\b-j-e\source\repos\30-CS-Bobcat-business-core\DAL\obj\Debug\DAL.pdb
