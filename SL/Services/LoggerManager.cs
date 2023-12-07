@@ -30,7 +30,7 @@ namespace SL.Services
 				//Implent here the initialization of your singleton
 			}
 
-        public static void Write(string mensaje, EventLevel evento)
+        public void Write(string mensaje, EventLevel evento)
         {
             DateTime fecha = DateTime.Now;
 

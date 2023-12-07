@@ -70,18 +70,35 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
+    <Compile Include="DAL\Contracts\IEntityAdapter.cs" />
+    <Compile Include="DAL\Contracts\IGenericRelationships.cs" />
+    <Compile Include="DAL\Contracts\IGenericRepository.cs" />
+    <Compile Include="DAL\Factories\Factory.cs" />
+    <Compile Include="DAL\Repositories\SqlServer\Adapters\FamiliaAdapter.cs" />
+    <Compile Include="DAL\Repositories\SqlServer\Adapters\PatenteAdapter.cs" />
+    <Compile Include="DAL\Repositories\SqlServer\FamiliaFamiliaRelationship.cs" />
+    <Compile Include="DAL\Repositories\SqlServer\FamiliaPatenteRelationship.cs" />
+    <Compile Include="DAL\Repositories\SqlServer\FamiliaRepository.cs" />
+    <Compile Include="DAL\Repositories\SqlServer\PatenteRepository.cs" />
     <Compile Include="DAL\Tools\SqlHelper.cs" />
+    <Compile Include="Domain\SecurityComposite\Familia.cs" />
+    <Compile Include="Domain\SecurityComposite\Patente.cs" />
+    <Compile Include="Domain\SecurityComposite\PatenteFamilia.cs" />
+    <Compile Include="Domain\SecurityComposite\Usuario.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services\CriptoManager.cs" />
+    <Compile Include="Services\Custom\BusinessException.cs" />
     <Compile Include="Services\DigitoManager.cs" />
     <Compile Include="Services\ExceptionManager.cs" />
+    <Compile Include="Services\Extensions\ExtensionString.cs" />
     <Compile Include="Services\LanguajeManager.cs" />
+    <Compile Include="Services\Security\ServicesUser.cs" />
     <Compile Include="Services\TelegramManager.cs" />
     <Compile Include="Services\LoggerManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="BLL\" />
-    <Folder Include="Domain\" />
+    <Folder Include="DAL\Repositories\Memory\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />

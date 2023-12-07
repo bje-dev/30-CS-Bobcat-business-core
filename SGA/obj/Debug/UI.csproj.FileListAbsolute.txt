@@ -15,3 +15,5 @@ C:\Users\b-j-e\source\repos\30-CS-Bobcat-business-core\SGA\bin\Debug\SL.pdb
 C:\Users\b-j-e\source\repos\30-CS-Bobcat-business-core\SGA\obj\Debug\UI.csproj.CopyComplete
 C:\Users\b-j-e\source\repos\30-CS-Bobcat-business-core\SGA\obj\Debug\SGA.exe
 C:\Users\b-j-e\source\repos\30-CS-Bobcat-business-core\SGA\obj\Debug\SGA.pdb
+C:\Users\b-j-e\source\repos\30-CS-Bobcat-business-core\SGA\bin\Debug\BLL.dll.config
+C:\Users\b-j-e\source\repos\30-CS-Bobcat-business-core\SGA\bin\Debug\SL.dll.config

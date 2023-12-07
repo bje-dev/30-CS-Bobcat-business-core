@@ -11,3 +11,6 @@ C:\Users\b-j-e\source\repos\30-CS-Bobcat-business-core\BLL\bin\Debug\SL.pdb
 C:\Users\b-j-e\source\repos\30-CS-Bobcat-business-core\BLL\obj\Debug\BLL.csproj.CopyComplete
 C:\Users\b-j-e\source\repos\30-CS-Bobcat-business-core\BLL\obj\Debug\BLL.dll
 C:\Users\b-j-e\source\repos\30-CS-Bobcat-business-core\BLL\obj\Debug\BLL.pdb
+C:\Users\b-j-e\source\repos\30-CS-Bobcat-business-core\BLL\bin\Debug\BLL.dll.config
+C:\Users\b-j-e\source\repos\30-CS-Bobcat-business-core\BLL\bin\Debug\DAL.dll.config
+C:\Users\b-j-e\source\repos\30-CS-Bobcat-business-core\BLL\bin\Debug\SL.dll.config
