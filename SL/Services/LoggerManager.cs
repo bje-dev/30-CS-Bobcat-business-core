@@ -30,7 +30,7 @@ namespace SL.Services
 				//Implent here the initialization of your singleton
 			}
 
-        public async Task Write(string mensaje, EventLevel evento)
+        public static void Write(string mensaje, EventLevel evento)
         {
             DateTime fecha = DateTime.Now;
 
@@ -88,13 +88,28 @@ namespace SL.Services
 
                     string messageText = $"Tenes un evento critico del tipo {evento}";
 
-                    
-                    await TelegramManager.Current.SendMessage(messageText);
 
+                    Task.Run(async () =>
+                    {
+                        await EnviarNotificacionCritica(evento);
+                    }).Wait(); // Esperar a que la tarea asincrónica complete (sincronización de hilos)
 
 
                     break;
 
+            }
+        }
+        private static async Task EnviarNotificacionCritica(EventLevel evento)
+        {
+            try
+            {
+                string messageText = $"Tienes un evento crítico del tipo {evento}";
+                await TelegramManager.Current.SendMessage(messageText);
+            }
+            catch (Exception ex)
+            {
+                // Puedes manejar el error de la notificación de manera adecuada
+                Console.WriteLine($"Error al enviar notificación crítica: {ex.Message}");
             }
         }
 

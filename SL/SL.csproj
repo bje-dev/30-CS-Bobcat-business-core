@@ -72,6 +72,7 @@
     <Compile Include="Class1.cs" />
     <Compile Include="DAL\Tools\SqlHelper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\CriptoManager.cs" />
     <Compile Include="Services\TelegramManager.cs" />
     <Compile Include="Services\LoggerManager.cs" />
   </ItemGroup>
