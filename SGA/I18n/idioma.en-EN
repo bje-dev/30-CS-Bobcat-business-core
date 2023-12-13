@@ -34,3 +34,19 @@ Exportar a PDF:Export to PDF
 Buscar:Search
 Fecha inicio:Date from
 Fecha fin:Date to
+DNI:NICN
+Nombre:Name
+Apellido:Last name
+Solicitud:Request
+Telefono:Phone number
+Correo:Email
+Marca:Brand
+Modelo:Model
+Serie:Serial
+Hora:Time
+Prioridad:Priority
+Tipo:Type
+Km:Kilometers
+Motivo de rechazo:Raeson reject
+Descripcion:Description
+Cliente:Customer

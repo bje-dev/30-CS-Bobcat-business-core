@@ -27,6 +27,7 @@ namespace SGA.Cliente
             button2.Text = button2.Text.Traducir();
             button3.Text = button3.Text.Traducir();
             button4.Text = button4.Text.Traducir();
+            button5.Text = button5.Text.Traducir();
 
         }
     }
