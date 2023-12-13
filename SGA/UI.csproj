@@ -46,14 +46,173 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="Administracion\frmAdmGenerarFactura.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Administracion\frmAdmGenerarFactura.Designer.cs">
+      <DependentUpon>frmAdmGenerarFactura.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Administracion\frmAdmGenerarPresupuesto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administracion\frmAdmGenerarPresupuesto.Designer.cs">
+      <DependentUpon>frmAdmGenerarPresupuesto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Administracion\frmAdmMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administracion\frmAdmMenu.Designer.cs">
+      <DependentUpon>frmAdmMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Administracion\frmAdmRechazarSolicitud.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administracion\frmAdmRechazarSolicitud.Designer.cs">
+      <DependentUpon>frmAdmRechazarSolicitud.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Administracion\frmAdmVerificarPago.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administracion\frmAdmVerificarPago.Designer.cs">
+      <DependentUpon>frmAdmVerificarPago.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cliente\frmCliCancelarSolicitud.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cliente\frmCliCancelarSolicitud.Designer.cs">
+      <DependentUpon>frmCliCancelarSolicitud.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cliente\frmCliGenerarSolicitud.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cliente\frmCliGenerarSolicitud.Designer.cs">
+      <DependentUpon>frmCliGenerarSolicitud.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cliente\frmCliMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cliente\frmCliMenu.Designer.cs">
+      <DependentUpon>frmCliMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cliente\frmCliRevisionPresupuesto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cliente\frmCliRevisionPresupuesto.Designer.cs">
+      <DependentUpon>frmCliRevisionPresupuesto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cliente\frmCliVerificaFactura.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cliente\frmCliVerificaFactura.Designer.cs">
+      <DependentUpon>frmCliVerificaFactura.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormInicioSesion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormInicioSesion.Designer.cs">
+      <DependentUpon>FormInicioSesion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gerencia\frmGerEstadisticasVentas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gerencia\frmGerEstadisticasVentas.Designer.cs">
+      <DependentUpon>frmGerEstadisticasVentas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gerencia\frmGerMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gerencia\frmGerMenu.Designer.cs">
+      <DependentUpon>frmGerMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gerencia\frmGerReportes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gerencia\frmGerReportes.Designer.cs">
+      <DependentUpon>frmGerReportes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Postventa\frmPosGestionSolicitudes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Postventa\frmPosGestionSolicitudes.Designer.cs">
+      <DependentUpon>frmPosGestionSolicitudes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Postventa\frmPosMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Postventa\frmPosMenu.Designer.cs">
+      <DependentUpon>frmPosMenu.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Servicio tecnico\frmTecConfeccionPresupuesto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Servicio tecnico\frmTecConfeccionPresupuesto.Designer.cs">
+      <DependentUpon>frmTecConfeccionPresupuesto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Servicio tecnico\frmTecGenerarOt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Servicio tecnico\frmTecGenerarOt.Designer.cs">
+      <DependentUpon>frmTecGenerarOt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Servicio tecnico\frmTecMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Servicio tecnico\frmTecMenu.Designer.cs">
+      <DependentUpon>frmTecMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sistema\frmSisMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sistema\frmSisMenu.Designer.cs">
+      <DependentUpon>frmSisMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sistema\frmSisRegistrarUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sistema\frmSisRegistrarUsuario.Designer.cs">
+      <DependentUpon>frmSisRegistrarUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ventas\frmVenMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ventas\frmVenMenu.Designer.cs">
+      <DependentUpon>frmVenMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ventas\frmVenRegistrarCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ventas\frmVenRegistrarCliente.Designer.cs">
+      <DependentUpon>frmVenRegistrarCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ventas\frmVenRegistrarUnidad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ventas\frmVenRegistrarUnidad.Designer.cs">
+      <DependentUpon>frmVenRegistrarUnidad.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Administracion\frmAdmRechazarSolicitud.resx">
+      <DependentUpon>frmAdmRechazarSolicitud.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cliente\frmCliCancelarSolicitud.resx">
+      <DependentUpon>frmCliCancelarSolicitud.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cliente\frmCliGenerarSolicitud.resx">
+      <DependentUpon>frmCliGenerarSolicitud.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cliente\frmCliMenu.resx">
+      <DependentUpon>frmCliMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cliente\frmCliRevisionPresupuesto.resx">
+      <DependentUpon>frmCliRevisionPresupuesto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cliente\frmCliVerificaFactura.resx">
+      <DependentUpon>frmCliVerificaFactura.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormInicioSesion.resx">
+      <DependentUpon>FormInicioSesion.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -63,8 +222,8 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <None Include="I18n\idioma.es-AR" />
     <None Include="I18n\idioma.en-EN" />
+    <None Include="I18n\idioma.es-MX" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -92,5 +251,6 @@
       <Name>SL</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

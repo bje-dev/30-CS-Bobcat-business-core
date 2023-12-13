@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.IO;
 using System.Linq;
 using System.Text;
@@ -23,11 +24,13 @@ namespace SL.Services
 
         private LanguageManager()
         {
-            filePath = @"I18n\idioma.";
+            filePath = ConfigurationManager.AppSettings["Lenguaje"];
+         
         }
         #endregion
 
         private string filePath = String.Empty;
+ 
 
         public string Translate(string key)
         {
