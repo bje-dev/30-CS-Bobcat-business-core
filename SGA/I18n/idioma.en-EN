@@ -14,7 +14,6 @@ Generar solicitud:Generate request
 Cancelar solicitud:Cancel request
 Revision presupuesto:Review budget
 Lista de solicitudes:List requests
-Rechazar:To reject
 Localizacion de la unidad:Unit location
 Verificar factura:Check bill
 ¿Cómo estás?:How are you?
@@ -50,3 +49,24 @@ Km:Kilometers
 Motivo de rechazo:Raeson reject
 Descripcion:Description
 Cliente:Customer
+Generar presupuesto:Generate budget
+Generar factura:Generate bill
+Verificar pago:Check payment
+Rechazar solicitud:Reject request
+OT:WO
+Descargar presupuesto:Download budget
+Descargar OT:Download WO
+Eliminar:Delete
+Agregar:Add
+Modificar:Modify
+Monto:Amonut
+Guardar y enviar:Save and send
+Cabecera:Header
+Peso:Peso
+Dolar:Dollar
+Moneda:Currency
+IVA:IVA
+Codigo pago:Pay code
+Pago acreditado:Pago acreditado
+Pago no acreditado:Pago no acreditado
+Descargar archivo:Descargar archivo

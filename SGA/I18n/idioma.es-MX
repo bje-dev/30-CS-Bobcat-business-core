@@ -14,7 +14,6 @@ Localizacion de la unidad:Localizacion de la unidad
 Generar solicitud:generar solicitud
 Cancelar solicitud:Cancelar solicitud
 Revision presupuesto:Revision presupuesto
-Rechazar:Rechazar
 Lista de solicitudes:Lista de solicitudes
 Verificar factura:Verificar factura
 ¿Cómo estás?:¿Cómo estás?
@@ -50,3 +49,25 @@ Km:Km
 Motivo de rechazo:Motivo de rechazo
 Descripcion:Descripcion
 Cliente:Cliente
+Generar presupuesto:Generar presupuesto
+Generar factura:Generatr factura
+Verificar pago:Verificar pago
+Rechazar solicitud:Rechazar solicitud
+OT:OT
+Descargar presupuesto:Descargar presupuesto
+Descargar OT:Descargar OT
+Eliminar:Eliminar
+Agregar:Agregar
+Modificar:Modificar
+Monto:Monto
+Guardar y enviar:Guardar y enviar
+Cabecera:Cabecera
+Peso:Peso
+Dolar:Dolar
+Moneda:Moneda
+IVA:IVA
+Codigo pago:Codigo pago
+Pago acreditado:Pago acreditado
+Pago no acreditado:Pago no acreditado
+Descargar archivo:Descargar archivo
+

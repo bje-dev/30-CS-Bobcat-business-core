@@ -21,3 +21,12 @@ C:\Users\b-j-e\source\repos\30-CS-Bobcat-business-core\SGA\obj\Debug\SGA.FormIni
 C:\Users\b-j-e\source\repos\30-CS-Bobcat-business-core\SGA\obj\Debug\SGA.Cliente.frmCliCancelarSolicitud.resources
 C:\Users\b-j-e\source\repos\30-CS-Bobcat-business-core\SGA\obj\Debug\SGA.Cliente.frmCliGenerarSolicitud.resources
 C:\Users\b-j-e\source\repos\30-CS-Bobcat-business-core\SGA\obj\Debug\SGA.Cliente.frmCliMenu.resources
+C:\Users\b-j-e\source\repos\30-CS-Bobcat-business-core\SGA\obj\Debug\SGA.Administracion.frmAdmGenerarFactura.resources
+C:\Users\b-j-e\source\repos\30-CS-Bobcat-business-core\SGA\obj\Debug\SGA.Administracion.frmAdmGenerarPresupuesto.resources
+C:\Users\b-j-e\source\repos\30-CS-Bobcat-business-core\SGA\obj\Debug\SGA.Administracion.frmAdmMenu.resources
+C:\Users\b-j-e\source\repos\30-CS-Bobcat-business-core\SGA\obj\Debug\SGA.Administracion.frmAdmRechazarSolicitud.resources
+C:\Users\b-j-e\source\repos\30-CS-Bobcat-business-core\SGA\obj\Debug\SGA.Administracion.frmAdmVerificarPago.resources
+C:\Users\b-j-e\source\repos\30-CS-Bobcat-business-core\SGA\obj\Debug\SGA.Cliente.frmCliRevisionPresupuesto.resources
+C:\Users\b-j-e\source\repos\30-CS-Bobcat-business-core\SGA\obj\Debug\SGA.Cliente.frmCliVerificaFactura.resources
+C:\Users\b-j-e\source\repos\30-CS-Bobcat-business-core\SGA\obj\Debug\SGA.Postventa.frmPosGestionSolicitudes.resources
+C:\Users\b-j-e\source\repos\30-CS-Bobcat-business-core\SGA\obj\Debug\SGA.Postventa.frmPosMenu.resources

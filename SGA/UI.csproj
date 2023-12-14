@@ -192,8 +192,20 @@
     <Compile Include="Ventas\frmVenRegistrarUnidad.Designer.cs">
       <DependentUpon>frmVenRegistrarUnidad.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Administracion\frmAdmGenerarFactura.resx">
+      <DependentUpon>frmAdmGenerarFactura.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administracion\frmAdmGenerarPresupuesto.resx">
+      <DependentUpon>frmAdmGenerarPresupuesto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administracion\frmAdmMenu.resx">
+      <DependentUpon>frmAdmMenu.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Administracion\frmAdmRechazarSolicitud.resx">
       <DependentUpon>frmAdmRechazarSolicitud.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administracion\frmAdmVerificarPago.resx">
+      <DependentUpon>frmAdmVerificarPago.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Cliente\frmCliCancelarSolicitud.resx">
       <DependentUpon>frmCliCancelarSolicitud.cs</DependentUpon>
