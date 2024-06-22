@@ -240,8 +240,12 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <None Include="I18n\idioma.en-EN" />
-    <None Include="I18n\idioma.es-MX" />
+    <EmbeddedResource Include="Servicio tecnico\frmTecConfeccionPresupuesto.resx">
+      <DependentUpon>frmTecConfeccionPresupuesto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Servicio tecnico\frmTecGenerarOt.resx">
+      <DependentUpon>frmTecGenerarOt.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

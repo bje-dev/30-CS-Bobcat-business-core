@@ -84,11 +84,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BLL\Language\BLLLanguage.cs" />
     <Compile Include="Class1.cs" />
     <Compile Include="DAL\Contracts\IEntityAdapter.cs" />
     <Compile Include="DAL\Contracts\IGenericRelationships.cs" />
     <Compile Include="DAL\Contracts\IGenericRepository.cs" />
     <Compile Include="DAL\Factories\Factory.cs" />
+    <Compile Include="DAL\Language\DALLanguage.cs" />
     <Compile Include="DAL\Repositories\SqlServer\Adapters\FamiliaAdapter.cs" />
     <Compile Include="DAL\Repositories\SqlServer\Adapters\PatenteAdapter.cs" />
     <Compile Include="DAL\Repositories\SqlServer\FamiliaFamiliaRelationship.cs" />
@@ -113,11 +115,12 @@
     <Compile Include="Services\LoggerManager.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="BLL\" />
     <Folder Include="DAL\Repositories\Memory\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
+    <None Include="DAL\I18n\idioma.en-EN" />
+    <None Include="DAL\I18n\idioma.es-MX" />
     <None Include="DAL\Tools\singleton.snippet" />
     <None Include="DAL\Tools\staments.snippet" />
     <None Include="packages.config" />

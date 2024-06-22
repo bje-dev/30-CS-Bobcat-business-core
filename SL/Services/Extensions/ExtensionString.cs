@@ -9,13 +9,13 @@ namespace SL.Services.Extensions
     public static class ExtensionString
     {
         /// <summary>
-        /// 
+        /// NO OLVIDAR LOS SUMMARY
         /// </summary>
         /// <param name="word"></param>
         /// <returns></returns>
-        public static string Traducir(this string word)
+        public static string Traducir(this string palabra)
         {
-            return LanguageManager.Current.Translate(word);
+            return LanguageManager.Current.Traducir(palabra);
         }
     }
 }

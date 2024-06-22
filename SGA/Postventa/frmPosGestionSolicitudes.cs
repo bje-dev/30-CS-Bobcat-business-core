@@ -48,10 +48,15 @@ namespace SGA.Postventa
             groupBox6.Text = groupBox6.Text.Traducir();
 
             button1.Text = button1.Text.Traducir();
-            button2.Text = button2.Text.Traducir();
+            
             
 
             
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -16,5 +16,14 @@ namespace SGA.Servicio_tecnico
         {
             InitializeComponent();
         }
+
+        
+
+        private void frmTecGenerarOt_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        
     }
 }

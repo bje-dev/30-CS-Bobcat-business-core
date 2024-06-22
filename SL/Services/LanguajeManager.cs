@@ -1,6 +1,6 @@
-﻿using System;
+﻿using SL.BLL.Language;
+using System;
 using System.Collections.Generic;
-using System.Configuration;
 using System.IO;
 using System.Linq;
 using System.Text;
@@ -24,37 +24,19 @@ namespace SL.Services
 
         private LanguageManager()
         {
-            filePath = ConfigurationManager.AppSettings["Lenguaje"];
+            
          
         }
         #endregion
 
-        private string filePath = String.Empty;
- 
+       
 
-        public string Translate(string key)
+
+        public string Traducir(string palabra)
         {
-            string translatedWord = key;
-
-            string culturaCodigo = Thread.CurrentThread.CurrentUICulture.Name;
-
-            using (StreamReader streamReader = new StreamReader(filePath + culturaCodigo))
-            {
-                while (!streamReader.EndOfStream)
-                {
-                    string linea = streamReader.ReadLine();
-                    string[] keyValuePair = linea.Split(':');
-
-                    if (keyValuePair[0].ToLower() == key.ToLower())
-                    {
-                        translatedWord = keyValuePair[1];
-                        break;
-                    }
-                }
-            }
-
-            return translatedWord;
+            return BLLLanguage.Current.Traducir(palabra);
         }
+
 
     }
 }

@@ -41,7 +41,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="BLLCliente.cs" />
+    <Compile Include="BLLFactura.cs" />
+    <Compile Include="BLLMarca.cs" />
+    <Compile Include="BLLModelo.cs" />
+    <Compile Include="BLLOt.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

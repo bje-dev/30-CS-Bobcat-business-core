@@ -15,7 +15,7 @@ namespace SL.Services
         
         private readonly static CriptoManager _instance = new CriptoManager();
        
-        private static readonly string Clave;
+       
 
         public static CriptoManager Current
             {
@@ -29,8 +29,8 @@ namespace SL.Services
         {
            string Clave = ConfigurationManager.AppSettings["Clave"]; // Deberías utilizar una clave segura y guardarla de manera segura.
         }
-        
-                
+
+        private static readonly string Clave;
 
         public static string Encriptar(string textoPlano)
         {

@@ -30,5 +30,15 @@ namespace SGA.Cliente
             groupBox1.Text= groupBox1.Text.Traducir();
             button1.Text = button1.Text.Traducir();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -18,6 +18,8 @@ namespace SGA
         static void Main()
         {
             Thread.CurrentThread.CurrentUICulture = new CultureInfo("en-EN");
+            
+
 
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);

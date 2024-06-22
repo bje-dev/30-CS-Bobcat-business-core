@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BLL
+namespace Dominio
 {
-    public class Class1
+    internal class Solicitud
     {
+        
     }
 }

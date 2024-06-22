@@ -30,3 +30,5 @@ C:\Users\b-j-e\source\repos\30-CS-Bobcat-business-core\SGA\obj\Debug\SGA.Cliente
 C:\Users\b-j-e\source\repos\30-CS-Bobcat-business-core\SGA\obj\Debug\SGA.Cliente.frmCliVerificaFactura.resources
 C:\Users\b-j-e\source\repos\30-CS-Bobcat-business-core\SGA\obj\Debug\SGA.Postventa.frmPosGestionSolicitudes.resources
 C:\Users\b-j-e\source\repos\30-CS-Bobcat-business-core\SGA\obj\Debug\SGA.Postventa.frmPosMenu.resources
+C:\Users\b-j-e\source\repos\30-CS-Bobcat-business-core\SGA\obj\Debug\SGA.Servicio_tecnico.frmTecConfeccionPresupuesto.resources
+C:\Users\b-j-e\source\repos\30-CS-Bobcat-business-core\SGA\obj\Debug\SGA.Servicio_tecnico.frmTecGenerarOt.resources
