@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DOM;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,9 +13,18 @@ namespace SGA.Ventas
 {
     public partial class frmVenRegistrarCliente : Form
     {
+       
         public frmVenRegistrarCliente()
         {
             InitializeComponent();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+           Cliente cliente 
+
+
+
         }
     }
 }

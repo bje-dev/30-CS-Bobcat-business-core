@@ -1,0 +1,6 @@
+C:\Users\b-j-e\source\repos\30-CS-Bobcat-business-core\UI\bin\Debug\UI.dll
+C:\Users\b-j-e\source\repos\30-CS-Bobcat-business-core\UI\bin\Debug\UI.pdb
+C:\Users\b-j-e\source\repos\30-CS-Bobcat-business-core\UI\obj\Debug\UI.csproj.AssemblyReference.cache
+C:\Users\b-j-e\source\repos\30-CS-Bobcat-business-core\UI\obj\Debug\UI.csproj.CoreCompileInputs.cache
+C:\Users\b-j-e\source\repos\30-CS-Bobcat-business-core\UI\obj\Debug\UI.dll
+C:\Users\b-j-e\source\repos\30-CS-Bobcat-business-core\UI\obj\Debug\UI.pdb

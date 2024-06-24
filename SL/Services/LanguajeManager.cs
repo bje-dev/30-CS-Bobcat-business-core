@@ -31,7 +31,6 @@ namespace SL.Services
 
        
 
-
         public string Traducir(string palabra)
         {
             return BLLLanguage.Current.Traducir(palabra);

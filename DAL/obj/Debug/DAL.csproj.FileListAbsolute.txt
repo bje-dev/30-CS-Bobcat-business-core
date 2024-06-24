@@ -1,9 +1,9 @@
 C:\Users\b-j-e\source\repos\30-CS-Bobcat-business-core\DAL\bin\Debug\DAL.dll.config
 C:\Users\b-j-e\source\repos\30-CS-Bobcat-business-core\DAL\bin\Debug\DAL.dll
 C:\Users\b-j-e\source\repos\30-CS-Bobcat-business-core\DAL\bin\Debug\DAL.pdb
-C:\Users\b-j-e\source\repos\30-CS-Bobcat-business-core\DAL\bin\Debug\Dominio.dll
+C:\Users\b-j-e\source\repos\30-CS-Bobcat-business-core\DAL\bin\Debug\DOM.dll
 C:\Users\b-j-e\source\repos\30-CS-Bobcat-business-core\DAL\bin\Debug\SL.dll
-C:\Users\b-j-e\source\repos\30-CS-Bobcat-business-core\DAL\bin\Debug\Dominio.pdb
+C:\Users\b-j-e\source\repos\30-CS-Bobcat-business-core\DAL\bin\Debug\DOM.pdb
 C:\Users\b-j-e\source\repos\30-CS-Bobcat-business-core\DAL\bin\Debug\SL.pdb
 C:\Users\b-j-e\source\repos\30-CS-Bobcat-business-core\DAL\bin\Debug\SL.dll.config
 C:\Users\b-j-e\source\repos\30-CS-Bobcat-business-core\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache

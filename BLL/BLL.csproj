@@ -46,6 +46,7 @@
     <Compile Include="BLLMarca.cs" />
     <Compile Include="BLLModelo.cs" />
     <Compile Include="BLLOt.cs" />
+    <Compile Include="Contracts\IGenericBLLRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -53,9 +54,9 @@
       <Project>{17ca733c-30fa-4af7-8967-ef9956a1d817}</Project>
       <Name>DAL</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Dominio\Domain.csproj">
-      <Project>{a7554839-0aff-4f73-a4ce-bf4bf80b9d27}</Project>
-      <Name>Domain</Name>
+    <ProjectReference Include="..\DOM\DOM.csproj">
+      <Project>{ea1375a1-62c1-41a3-8ca0-136a3e8325e6}</Project>
+      <Name>DOM</Name>
     </ProjectReference>
     <ProjectReference Include="..\SL\SL.csproj">
       <Project>{8b28f87d-aadf-4d49-bcd1-fba0b0fa36da}</Project>
@@ -64,6 +65,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Services\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
